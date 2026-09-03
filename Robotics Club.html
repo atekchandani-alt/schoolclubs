@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robotics Club</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+            color: #f8fafc; /* Text color */
+            font-family: sans-serif; /* Sans-serif font for the body text */
+        }
+
+        h1 {
+            color:#ee05d3fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 50px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h2 {
+            color:#0aa6f4fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 20px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h3 {
+            color: #eb070efd; /* Color for the subheading */
+            text-align: center; /* Center the subheading */
+            font-size: 30px; /* Font size for the subheading */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+        }
+
+        .hobby-container {
+            display: flex; /* Flexbox for the layout */
+            flex-wrap: wrap; /* Allows the hobby boxes to wrap to the next line if necessary */
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font for paragraph text */
+            font-size:20px; /* Font size for the hobby description */
+            color:black;  /*Black color all paragraphs in the webpage */
+        }
+
+        .hobby-box {
+            background-color:#f0f0f0; /* Background for the hobby box */
+            border: 5px solid #f90b0b; /* Border color */
+            width: 248px; /* Fixed width for each hobby box */
+            padding: 10px; /* Padding inside the hobby box */
+            margin: 10px; /* Space between each hobby box */
+            text-align: center; /* Center-aligns text inside the hobby box */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+        }
+
+        .hobby-box:hover {
+            transform: translateY(-25px); /* Move the box up by 10px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to give the lift effect */
+        }
+
+        .hobby-box img {
+            width: 185px; /* Fixed width for the hobby image */
+            height: 185px; /* Fixed height for the hobby image */
+        }
+
+        .pages {
+            background-color: #E4DBB2; /* Background for the navigation bar */
+            padding: 15px 40px; /* Padding inside the navigation bar */
+            text-align: center; /* Centers the navigation links */
+            font-size:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            border-radius: 50px; /* Rounded corners for the navigation bar */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .pages a {
+            color:#4A3C69; /* Text color for the navigation links */
+            margin: 40px; /* Space between the navigation links */
+            text-decoration: none; /* Removes the underline from links */
+            text-align:center; /* Centers the links horizontally */
+        }
+
+        .nav-wrapper {
+            display: flex; /* Arrange items in a row */
+            align-items: center; /* Vertically center the items */
+            justify-content: center; /* Horizontally center the entire group */
+            margin-bottom: 20px; /* Add spacing below the navigation area */
+        }
+
+        .nav-icon {
+            width: 200px; /* Set width for icon */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 20px; /* Horizontal spacing around icons */
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-wrapper">
+    <img src="robotics.png" class="nav-icon" alt="Robotics">
+
+    <div class="pages">
+        <a href="index.html">Home</a>
+        <a href="Robotics Club.html">Robotics</a>
+        <a href="Coding.html">Coding</a>
+        <a href="Sports.html">Sports</a>
+        <a href="Art.html">Art</a>
+
+    </div>
+    <img src="robotics.png" class="nav-icon" alt="Robotics">
+
+</div>
+
+<h1>"Robotics Club"</h1> <!-- Main title of the page -->
+<h2>"The Robotics Club is a hands-on club where students explore robotics, engineering, and technology. Members work together to design, build, and program robots while developing creativity, problem-solving, and teamwork skills."</h2>
+
+<div class="hobby-container">
+    <!-- Each club is contained in a .hobby-box div -->
+
+    <div class="hobby-box">
+        <img src="purpose.png" alt="Purpose"> <!-- Slide 1 Image -->
+        <h3>Purposes and Activities Offered</h3> <!-- Slide 1 Name -->
+        <p>The purpose of a robotics club is to provide students with hands-on learning experiences that combine engineering, coding, and creativity.</p> <!-- Purpose Description -->
+        <p>Robotics clubs often start with practical, hands-on projects to introduce students to robotics concepts.</p> <!-- Activities Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="requirements.png" alt="Requirements"> <!-- Slide 2 Image -->
+        <h3>Club Advisor And Requirements</h3> <!-- Slide 2 Name -->
+        <p>Mr. Daniel Martinez, guides students through robotics projects and helps them develop engineering, teamwork, and problem-solving skills.</p> <!-- Club Director Description -->
+        <p>Must be interested in robotics and technology. Attend regular club meetings. Be willing to work in a team. Participate in club projects and activities.</p> <!-- Requirments For The Club -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="robotbuilding.png" alt="Robot Building"> <!-- Slide 3 Image -->
+        <h3>Robot Building</h3> <!-- Slide 3 Name -->
+        <p>Members work together to design and build robots using different materials, electronic components, and simple mechanical parts. This activity allows students to turn their ideas into working machines while developing creativity and engineering skills.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="coding.png" alt="Coding"> <!-- Slide 4 Image -->
+        <h3>Coding Challenges</h3> <!-- Slide 4 Name -->
+        <p>Students learn how to program robots to perform different tasks and respond to challenges. Through these activities, members practice logical thinking, problem-solving, and basic programming while working together to find solutions.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="roboticscomp.png" alt="Competition"> <!-- Slide 5 Image -->
+        <h3>Robotics Competition</h3> <!-- Slide 5 Name -->
+        <p>Members participate in friendly robotics competitions where they test the robots they have designed and programmed. These events give students a chance to apply what they have learned while developing teamwork, communication, and problem-solving skills.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+</div>
+</body>
+</html>
