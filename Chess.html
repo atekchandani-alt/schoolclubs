@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chess Club</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+            color: #f8fafc; /* Text color */
+            font-family: sans-serif; /* Sans-serif font for the body text */
+        }
+
+        h1 {
+            color:#ee05d3fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 50px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h2 {
+            color:#0aa6f4fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 20px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h3 {
+            color: #eb070efd; /* Color for the subheading */
+            text-align: center; /* Center the subheading */
+            font-size: 30px; /* Font size for the subheading */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+        }
+
+        .hobby-container {
+            display: flex; /* Flexbox for the layout */
+            flex-wrap: wrap; /* Allows the hobby boxes to wrap to the next line if necessary */
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font for paragraph text */
+            font-size:20px; /* Font size for the hobby description */
+            color:black;  /*Black color all paragraphs in the webpage */
+        }
+
+        .hobby-box {
+            background-color:#f0f0f0; /* Background for the cl box */
+            border: 5px solid #f90b0b; /* Border color */
+            width: 248px; /* Fixed width for each club box */
+            padding: 10px; /* Padding inside the club box */
+            margin: 10px; /* Space between each club box */
+            text-align: center; /* Center-aligns text inside the hobby box */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+        }
+
+        .hobby-box:hover {
+            transform: translateY(-25px); /* Move the box up by 10px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to give the lift effect */
+        }
+
+        .hobby-box img {
+            width: 185px; /* Fixed width for the hobby image */
+            height: 185px; /* Fixed height for the hobby image */
+        }
+
+        .pages {
+            background-color: #E4DBB2; /* Background for the navigation bar */
+            padding: 15px 40px; /* Padding inside the navigation bar */
+            text-align: center; /* Centers the navigation links */
+            font-size:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            border-radius: 50px; /* Rounded corners for the navigation bar */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .pages a {
+            color:#4A3C69; /* Text color for the navigation links */
+            margin: 40px; /* Space between the navigation links */
+            text-decoration: none; /* Removes the underline from links */
+            text-align:center; /* Centers the links horizontally */
+        }
+
+        .nav-wrapper {
+            display: flex; /* Arrange items in a row */
+            align-items: center; /* Vertically center the items */
+            justify-content: center; /* Horizontally center the entire group */
+            margin-bottom: 20px; /* Add spacing below the navigation area */
+        }
+
+        .nav-icon {
+            width: 200px; /* Set width for icon */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 20px; /* Horizontal spacing around icons */
+        }
+
+        footer {
+            background-color: #06a5f5;/* Dark, modern background */
+            color: #ffffff; /* Clean white text */
+            text-align: right;/* Centers the text */
+            padding: 20px 10px;/* Spacing above and below text */
+            font-family: 'Segoe UI', sans-serif; /* Clean, modern font */
+            border-top: 5px solid #090909; /* Subtle divider line on top */
+            font-size: 14px;/* Readable, standard footer text size */
+            letter-spacing: 0.5px;/* Cleaner text tracking */
+        }
+
+        footer p {
+            margin: 0;/* Removes default paragraph spacing */
+            opacity: 0.8;/* Softens the white text slightly */
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-wrapper">
+    <img src="Images/chessimage.png" class="nav-icon" alt="Mr. Cus">
+
+    <div class="pages">
+        <a href="HomePage.html">Home</a>
+        <a href="RoboticsClub.html">Robotics</a>
+        <a href="Coding.html">Coding</a>
+        <a href="Sports.html">Sports</a>
+        <a href="Chess.html">Chess</a>
+
+    </div>
+    <img src="Images/chessimage.png" class="nav-icon" alt="Mr. Cus">
+
+</div>
+
+<h1>"Chess Club"</h1> <!-- Main title of the page -->
+<h2>"The Chess Club gives students an opportunity to learn and enjoy the game of chess in a friendly and competitive environment. Members can improve their strategic thinking, concentration, patience, and problem-solving skills while playing against other students."</h2>
+
+<div class="hobby-container">
+    <!-- Each club is contained in a .hobby-box div -->
+
+    <div class="hobby-box">
+        <img src="Images/purposecoding.png" alt="Purpose"> <!-- Slide 1 Image -->
+        <h3>Purposes and Activities Offered</h3> <!-- Slide 1 Name -->
+        <p>The purpose of the Chess Club is to help students develop critical thinking and decision-making skills through chess. The club encourages students to think ahead, learn from their mistakes, and develop patience and concentration.</p> <!-- Purpose Description -->
+        <p>Members participate in chess practice sessions, friendly matches, strategy lessons, and chess tournaments. Students can learn new openings, practice different strategies, and challenge their classmates to improve their skills.</p> <!-- Activities Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/requirements.png" alt="Requirements"> <!-- Slide 2 Image -->
+        <h3>Club Advisor And Requirements</h3> <!-- Slide 2 Name -->
+        <p>Mr. Leander Campos helps students learn chess strategies and encourages members to improve their concentration, critical thinking, and decision-making skills.</p> <!-- Club Director Description -->
+        <p>Students should have an interest in chess and be willing to learn and improve their skills. Members should attend regular meetings, participate in chess activities, and show good sportsmanship when playing against others.</p> <!-- Requirments For The Club -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/chesspractice.png" alt="Chess Practice"> <!-- Slide 3 Image -->
+        <h3>Chess Practice</h3> <!-- Slide 3 Name -->
+        <p>Members participate in regular chess sessions where they can practice against other students and improve their understanding of the game. These sessions help students become more comfortable with different strategies and develop their decision-making skills.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/strategylessons.png" alt="Lesson"> <!-- Slide 4 Image -->
+        <h3>Strategy Lessons</h3> <!-- Slide 4 Name -->
+        <p>Students learn different chess strategies, openings, and tactics that can help them during games. Members practice these techniques and learn how to think ahead and make better decisions on the chessboard.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/chesstournament.png" alt="Tournament"> <!-- Slide 5 Image -->
+        <h3>Chess Tournament</h3> <!-- Slide 5 Name -->
+        <p>Members participate in friendly chess tournaments where they can compete against other students. These events give students an opportunity to test their skills, gain experience, and enjoy some friendly competition.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+</div>
+
+<footer><p>  @ BHS Clubs (Chess Club)</p> </footer>
+</body>
+</html>

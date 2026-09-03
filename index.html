@@ -1,0 +1,163 @@
+<Doctype html>
+    <html>
+    <head>
+        <title>Home</title>
+        <style>
+            body {
+                background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+                color: #f8fafc; /* Text color */
+                font-family: sans-serif; /* Sans-serif font for the body text */
+            }
+
+            h1 {
+                color:#f906f5fd; /* Color for the main title */
+                text-align: center; /* Center the title */
+                font-size: 50px; /* Large font size for the title */
+                font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+            }
+
+            h3 {
+                color: #fa1010fd; /* Color for the subheading */
+                text-align: center; /* Center the subheading */
+                font-size: 30px; /* Font size for the subheading */
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+            }
+
+            .pages {
+                background-color: #E4DBB2; /* Background for the navigation bar */
+                padding: 15px 40px; /* Padding inside the navigation bar */
+                text-align: center; /* Centers the navigation links */
+                font-size:30px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                border-radius: 50px; /* Rounded corners for the navigation bar */
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+            }
+
+            .pages a {
+                color:#4A3C69; /* Text color for the navigation links */
+                margin: 50px; /* Space between the navigation links */
+                text-decoration: none; /* Removes the underline from links */
+                text-align:center; /* Centers the links horizontally */
+            }
+
+            .pages:hover {
+                transform: translateY(-10px); /* Lift the navigation bar slightly on hover */
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Add a soft shadow when hovered */
+            }
+
+            .boxes {
+                display: flex; /* Use flexbox for box layout */
+                align-items: stretch; /* Align items to the top */
+                gap: 20px; /* Space between each box */
+                justify-content: center; /* Center the box horizontally */
+                margin: 0 auto; /* Center the box container */
+            }
+
+            .box {
+                background: rgb(246, 243, 243); /* Background for each box */
+                border: 5px solid black; /* Black border for each box */
+                border-radius: 6px; /* Rounded corners for boxes */
+                padding: 10px; /* Padding inside each box */
+                width: 60%; /* Each box takes up 32% of the width */
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+            }
+
+            .box.left   { text-align: center; display:flex; flex-direction: column; justify-content: space-between; align-items: center;} /* Center text in the left product box */
+            .box.right  { text-align: right; display:flex; flex-direction: column; justify-content: space-between; align-items: center;} /* Center text in the right product box */
+
+            .box img {
+                max-width: 90%; /* Ensure images fit within the product box */
+                height: auto; /* Maintain the aspect ratio of the images */
+                margin-bottom: 10px; /* Space between image and text */
+                max-height:160 px; /* Limit the height of images */
+                width: auto; /* Maintain the aspect ratio of the images */
+                border-radius:4 px; /* Slightly rounded corners for images */
+                object-fit:contain; /* Ensure the entire image fits within the box without distortion */
+            }
+
+            .box h3 {
+                font-size: 40px; /* Font size for home subtitles */
+                margin-bottom: 8px; /* Space below the home subtitle */
+                font-family: 'Trebuchet MS', Arial, sans-serif; /* Font for home subtitle */
+            }
+
+            .box p {
+                font-size: 25px; /* Font size for description */
+                color: #080304; /* Color for the description text */
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for description */
+            }
+
+            .nav-wrapper {
+                display: flex; /* Arrange items in a row */
+                align-items: center; /* Vertically center the items */
+                justify-content: center; /* Horizontally center the entire group */
+                margin-bottom: 20px; /* Add spacing below the navigation area */
+            }
+
+            .nav-icon {
+                width: 130px; /* Set width for icon */
+                height: auto; /* Maintain aspect ratio */
+                margin: 0 20px; /* Horizontal spacing around icons */
+            }
+
+            .box:hover {
+                transform: translateY(-50px); /* Lift the box slightly */
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a soft shadow when hovered */
+            }
+
+            footer {
+                background-color: #06a5f5;/* Dark, modern background */
+                color: #ffffff; /* Clean white text */
+                text-align: right;/* Centers the text */
+                padding: 20px 10px;/* Spacing above and below text */
+                font-family: 'Segoe UI', sans-serif; /* Clean, modern font */
+                border-top: 5px solid #090909; /* Subtle divider line on top */
+                font-size: 14px;/* Readable, standard footer text size */
+                letter-spacing: 0.5px;/* Cleaner text tracking */
+            }
+
+            footer p {
+                margin: 0;/* Removes default paragraph spacing */
+                opacity: 0.8;/* Softens the white text slightly */
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <div class="nav-wrapper">
+        <img src="Images/brrbrrpatapim.png" class="nav-icon" alt="Brr Brr Patapim ">
+
+        <div class="pages">
+            <a href="HomePage.html">Home</a>
+            <a href="RoboticsClub.html">Robotics</a>
+            <a href="Coding.html">Coding</a>
+            <a href="Sports.html">Sports</a>
+            <a href="Chess.html">Chess</a>
+        </div>
+        <img src="Images/brrbrrpatapim.png" class="nav-icon" alt="Brr Brr Patapim ">
+
+    </div>
+
+    <!-- Main title of the page -->
+    <h1>Clubs In Belize High School</h1>
+    <h3>Belize High School is an established private school located in Belize City, Belize, offering education for students typically from ages 12 to 18.</h3>
+
+    <br><br>
+
+    <!-- Home Display Section -->
+    <div class="boxes">
+
+        <!-- First Box For Home -->
+        <div class="box left">
+            <img src="Images/schoolclubs.png" alt="School Clubs"> <!-- Image for Clubs -->
+            <h3>Hello Students!</h3>
+            <p>Our school offers a variety of clubs that allow students to explore their interests, develop new skills, and meet other students. From Robotics and Coding to Sports and Chess, there is a club for students with different interests and talents. These clubs encourage creativity, teamwork, problem-solving, and personal growth outside the classroom.</p>
+        </div>
+
+    </div>
+
+
+    <footer><p>  @ BHS Clubs (Chess Club)</p> </footer>
+    </body>
+    </html>

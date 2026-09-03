@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coding Club</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+            color: #f8fafc; /* Text color */
+            font-family: sans-serif; /* Sans-serif font for the body text */
+        }
+
+        h1 {
+            color:#ee05d3fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 50px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h2 {
+            color:#0aa6f4fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 20px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h3 {
+            color: #eb070efd; /* Color for the subheading */
+            text-align: center; /* Center the subheading */
+            font-size: 30px; /* Font size for the subheading */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+        }
+
+        .hobby-container {
+            display: flex; /* Flexbox for the layout */
+            flex-wrap: wrap; /* Allows the hobby boxes to wrap to the next line if necessary */
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font for paragraph text */
+            font-size:20px; /* Font size for the hobby description */
+            color:black;  /*Black color all paragraphs in the webpage */
+        }
+
+        .hobby-box {
+            background-color:#f0f0f0; /* Background for the cl box */
+            border: 5px solid #f90b0b; /* Border color */
+            width: 248px; /* Fixed width for each club box */
+            padding: 10px; /* Padding inside the club box */
+            margin: 10px; /* Space between each club box */
+            text-align: center; /* Center-aligns text inside the hobby box */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+        }
+
+        .hobby-box:hover {
+            transform: translateY(-25px); /* Move the box up by 10px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to give the lift effect */
+        }
+
+        .hobby-box img {
+            width: 185px; /* Fixed width for the hobby image */
+            height: 185px; /* Fixed height for the hobby image */
+        }
+
+        .pages {
+            background-color: #E4DBB2; /* Background for the navigation bar */
+            padding: 15px 40px; /* Padding inside the navigation bar */
+            text-align: center; /* Centers the navigation links */
+            font-size:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            border-radius: 50px; /* Rounded corners for the navigation bar */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .pages a {
+            color:#4A3C69; /* Text color for the navigation links */
+            margin: 40px; /* Space between the navigation links */
+            text-decoration: none; /* Removes the underline from links */
+            text-align:center; /* Centers the links horizontally */
+        }
+
+        .nav-wrapper {
+            display: flex; /* Arrange items in a row */
+            align-items: center; /* Vertically center the items */
+            justify-content: center; /* Horizontally center the entire group */
+            margin-bottom: 20px; /* Add spacing below the navigation area */
+        }
+
+        .nav-icon {
+            width: 200px; /* Set width for icon */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 20px; /* Horizontal spacing around icons */
+        }
+
+        footer {
+            background-color: #06a5f5;/* Dark, modern background */
+            color: #ffffff; /* Clean white text */
+            text-align: right;/* Centers the text */
+            padding: 20px 10px;/* Spacing above and below text */
+            font-family: 'Segoe UI', sans-serif; /* Clean, modern font */
+            border-top: 5px solid #090909; /* Subtle divider line on top */
+            font-size: 14px;/* Readable, standard footer text size */
+            letter-spacing: 0.5px;/* Cleaner text tracking */
+        }
+
+        footer p {
+            margin: 0;/* Removes default paragraph spacing */
+            opacity: 0.8;/* Softens the white text slightly */
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-wrapper">
+    <img src="Images/codingimage.png" class="nav-icon" alt="Coding">
+
+    <div class="pages">
+        <a href="HomePage.html">Home</a>
+        <a href="RoboticsClub.html">Robotics</a>
+        <a href="Coding.html">Coding</a>
+        <a href="Sports.html">Sports</a>
+        <a href="Chess.html">Chess</a>
+    </div>
+    <img src="Images/codingimage.png" class="nav-icon" alt="Coding">
+
+</div>
+
+<h1>"Coding Club"</h1> <!-- Main title of the page -->
+<h2>"The Coding Club gives students an opportunity to learn programming and create their own digital projects. Members practice coding, build websites and applications, and solve programming challenges while improving their logical thinking and technical skills."</h2>
+
+<div class="hobby-container">
+    <!-- Each club is contained in a .hobby-box div -->
+
+    <div class="hobby-box">
+        <img src="Images/purposecoding.png" alt="Purpose"> <!-- Slide 1 Image -->
+        <h3>Purposes and Activities Offered</h3> <!-- Slide 1 Name -->
+        <p>The primary purpose of a coding club is to provide a collaborative space where students can learn programming, build real-world software, and prepare for careers in technology.</p> <!-- Purpose Description -->
+        <p>Our coding club hosts hands-on software workshops, collaborative team project sprints, and high-energy hackathons to help students build real-world apps. Members gain the essential programming skills, portfolio pieces, and peer mentorship needed to prepare for a successful career in the tech industry.</p> <!-- Activities Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/requirements.png" alt="Requirements"> <!-- Slide 2 Image -->
+        <h3>Club Advisor And Requirements</h3> <!-- Slide 2 Name -->
+        <p>Ms. Sophia Williams, helps students learn programming and supports them as they create websites, applications, and other coding projects.</p> <!-- Club Director Description -->
+        <p>The Coding Club gives students an opportunity to learn programming and create their own digital projects. Members practice coding, build websites and applications, and solve programming challenges while improving their logical thinking and technical skills.</p> <!-- Requirments For The Club -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/websitedesign.png" alt="Website Design"> <!-- Slide 3 Image -->
+        <h3>Website Design</h3> <!-- Slide 3 Name -->
+        <p>Members learn how to create and design websites using HTML and CSS. Students can create pages about different topics while learning how to organize information, style their websites, and make them easy for visitors to use.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/coding.png" alt="Coding"> <!-- Slide 4 Image -->
+        <h3>Coding Challenges</h3> <!-- Slide 4 Name -->
+        <p>Students participate in coding challenges that encourage them to think logically and find creative solutions to different problems. These challenges help members improve their programming skills while making learning fun and interactive.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+    <div class="hobby-box">
+        <img src="Images/appprojects.png" alt="App Projects"> <!-- Slide 5 Image -->
+        <h3>App Projects</h3> <!-- Slide 5 Name -->
+        <p>Members work together to plan and create simple digital applications. Students learn how to turn an idea into a working project while practicing programming, planning, teamwork, and problem-solving skills.</p> <!-- Slide Description -->
+    </div> <!-- End of club container -->
+
+</div>
+
+<footer><p>  @ BHS Clubs (Chess Club)</p> </footer>
+</body>
+</html>
